@@ -1,0 +1,53 @@
+blue.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blue</title>
+    <link rel="stylesheet" href="blue.css">
+</head>
+<body>
+
+</body>
+</html>
+
+blue.css:
+body {
+    background-color: blue;
+}
+
+red.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Red</title>
+    <link rel="stylesheet" href="red.css">
+</head>
+<body>
+
+</body>
+</html>
+
+red.css:
+body {
+    background-color: red;
+}
+
+purple.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Purple</title>
+    <link rel="stylesheet" href="purple.css">
+</head>
+<body>
+
+</body>
+</html>
+
+purple.css:
+body {
+    background-color: purple;
+}
