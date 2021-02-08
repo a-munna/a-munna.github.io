@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="first" id="first">
+    <meta charset="UTF-8">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="BHCCWork.css">
+    <h1 class="second" id="second">Hello World</h1>
+</head>
+<body class="third" id="third">
+<legend class="fourth" id="fourth">
+    Hello World:
+</legend>
+<div class="fifth" id="fifth">
+<p>Hello World</p>
+</div>
+</body>
+</html>
+
+div {
+    border: 5px outset red;
+    border-bottom-color: black;
+    gap: normal;
+}
+
+h1 {
+    font-size: 50px;
+    font-variant: all-petite-caps;
+    font-feature-settings: normal;
+}
+
+body {
+    background-color: lawngreen;
+    backdrop-filter: brightness(50%);
+    vertical-align: center;
+}
+
+head {
+    text-align: center;
+    solid-color: rebeccapurple;
+    shape-margin: 20px;
+}
+
+legend {
+    font-family: cursive;
+    font-min-size: 25px;
+    font-max-size: 50px;
+}
+
+.first {
+    text-decoration-color: blue;
+}
+
+.second {
+    font-style: italic;
+}
+
+.third {
+    font-weight: bold;
+}
+
+.fourth {
+    color: purple;
+}
+
+.fifth {
+    caret-color: orange;
+}
+
+#first {
+    background-size: 20px;
+}
+
+#second {
+    align-content: center;
+}
+
+#third {
+    backface-visibility: visible;
+}
+
+#fourth {
+    cursor: alias;
+}
+
+#fifth {
+    flex-basis: 20px;
+}
