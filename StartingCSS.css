@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #000000;
+    background-color: #1364A6;
+    background-image:url(https://geographical.co.uk/media/k2/items/cache/e533c4b8d2d2d3798f3271c35ca6e050_XL.jpg);
+    position: relative;
+    min-height: 50%;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+*
+{
+    margin: 0 auto 0 auto;
+    text-align:left;}
+
+#container
+{
+    display: block;
+    height:auto;
+    position: relative;
+    width: 750px;
+    background-image:url(https://cdn.cnn.com/cnnnext/dam/assets/191111145001-09-highest-mountains-world-photos-full-169.jpg);
+    padding-left:17px;
+    padding-right:17px;
+    overflow:hidden;
+    background-repeat: repeat-y;
+}
+
+#links
+{
+    display:block;
+    float:right;
+    margin-top:25px;
+    margin-right:10px;
+}
+
+#links a, #links a:visited
+{
+    font-size:16px;
+    font-weight:bold;
+    margin-left:90px;
+    margin-right:4px;
+    color: #1652B4;
+    text-decoration:none;
+}
+
+#links a:hover
+{
+    border-bottom:dotted 1px #1652B4;
+}
+
+#header
+{
+    height:60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#header h1
+{
+    margin-top:15px;
+    margin-left:10px;
+    font-size:33px;
+    color:#0A2645;
+    float:left;
+}
+
+.off
+{
+    color:#1652B4;
+}
+
+.picture
+{
+    background-image:url(https://ichef.bbci.co.uk/images/ic/1200x675/p05ccrb2.jpg);
+    background-repeat:repeat-y;
+    background-position:bottom;
+    padding-bottom:8px;
+    margin-top:22px;
+    position: relative;
+    clip-path: circle(350px at 50% 50%);
+}
+
+
+.contenttext h2
+{
+    color:#123F83;
+    font-size:24px;
+    margin-bottom:10px;
+
+}
+
+.contenttext
+{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+#footer
+{
+    font-size:12px;
+    color:#519FEE;
+    margin-top:18px;
+    width:750px;
+    text-align:center;
+}
+#footer a, #footer a:visited
+{
+    text-align:center;
+    color:#ADCCF1;
+    text-decoration:none;
+}
+
+html, body {
+    text-align: center;
+}
+
+p {text-align: left;}
+
+#content {
+    color:#123F83;
+    font-size:24px;
+    margin-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#content2 {
+    color:#123F83;
+    font-size:24px;
+    margin-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#content3 {
+    color:#123F83;
+    font-size:24px;
+    margin-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+
+.fixed.green {
+    background: green;
+    z-index: 5;
+    left: 20px;
+    top: 20px;
+}
